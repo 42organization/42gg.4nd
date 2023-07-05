@@ -50,12 +50,7 @@
 ![스크린샷 2023-06-26 오후 5.09.59.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06902124-87f6-4d16-afc6-3064d0f7e8cf/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-26_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.09.59.png)
 
 - 참고자료
-    
     김영한 **자바 ORM 표준 JPA 프로그래밍 - 기본편**
-    
-    [jpa-2023-01-30 (1).zip](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5cdcd6e-5623-4220-95e8-a88225a5a11e/jpa-2023-01-30_(1).zip)
-    
-
 ## 3단계
 
 ---
