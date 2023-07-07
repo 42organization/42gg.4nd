@@ -1,10 +1,10 @@
-package gg.onboarding;
+package onboarding.gg;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class OnboardingApplicationTests {
+class ApplicationTests {
 
 	@Test
 	void contextLoads() {
