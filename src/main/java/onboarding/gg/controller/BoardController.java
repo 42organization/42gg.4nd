@@ -19,6 +19,12 @@ public class BoardController {
         List<BoardDto> boardList = boardService.getBoardlist();
         return boardList.toString();
     }
+    @GetMapping("/{no}")
+    public String postView(@PathVariable("no") Long no, Model model) {
+        BoardDto boardDTO = boardService.getPost(no);
+        model.addAttribute("boardDto", boardDTO);
+        return model.toString();
+    }
 
     /* 게시글 추가*/
     @GetMapping("/post")

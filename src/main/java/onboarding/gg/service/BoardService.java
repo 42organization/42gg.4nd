@@ -65,6 +65,6 @@ public class BoardService {
     @Transactional
     public void updatePost(Long id, BoardDto dto) {
         Optional<BoardEntity> boardEntity = boardRepository.findById(id);
-        boardEntity.get().update(dto);
+        boardEntity.ifPresent(entity -> entity.update(dto));
     }
 }
