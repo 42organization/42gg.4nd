@@ -1,5 +1,6 @@
 package onboarding.gg.dto;
 
+import com.sun.istack.NotNull;
 import lombok.*;
 import onboarding.gg.entity.BoardEntity;
 
@@ -19,13 +20,13 @@ public class BoardDto {
     private LocalDateTime modifiedDate;
 
     public BoardEntity toEntity(){
-        BoardEntity boardTable = BoardEntity.builder()
+        BoardEntity boardEntity = BoardEntity.builder()
                 .id(id)
                 .writer(writer)
                 .title(title)
                 .content(content)
                 .build();
-        return boardTable;
+        return boardEntity;
     }
 
     @Builder
@@ -37,4 +38,6 @@ public class BoardDto {
         this.createdDate = createdDate;
         this.modifiedDate = modifiedDate;
     }
+
+
 }

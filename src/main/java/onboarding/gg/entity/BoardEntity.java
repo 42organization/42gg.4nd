@@ -1,6 +1,7 @@
 package onboarding.gg.entity;
 
 import lombok.*;
+import onboarding.gg.dto.BoardDto;
 
 
 import javax.persistence.*;
@@ -29,5 +30,10 @@ public class BoardEntity extends TimeEntity {
         this.writer = writer;
         this.title = title;
         this.content = content;
+    }
+    public void update(BoardDto boardDto) {
+        this.title = boardDto.getTitle();
+        this.writer = boardDto.getWriter();
+        this.content = boardDto.getContent();
     }
 }
